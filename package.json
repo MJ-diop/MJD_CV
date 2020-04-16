@@ -1,6 +1,12 @@
 {
   "name": "MyCv",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w src/scss/main.scss -o src/css/ --recursive --output-style=compressed"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
