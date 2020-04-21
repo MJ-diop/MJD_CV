@@ -20,7 +20,7 @@ body {
 main {
   width: calc(100% - 100px);
   max-width: 900px;
-  height: 940px;
+  height: 950px;
   padding: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -52,6 +52,11 @@ main {
 
       hr {
         margin-bottom: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
       }
     }
 
@@ -93,12 +98,12 @@ main {
       }
     }
 
-    .experience {
-      margin-top: 150px;
+    .aboutme {
+      margin-top: 144px;
       left: 35.0936px;
       position: relative;
       top: -6px;
-      width: 460px;
+      width: 480px;
       height: 140px;
       word-spacing: 2px;
       line-height: 23.15px;
@@ -112,7 +117,7 @@ main {
   }
   .formation {
     float: right;
-    margin-top: -583px;
+    margin-top: -70px;
     width: 465px;
     word-spacing: 2px;
     line-height: 23.15px;
@@ -131,22 +136,34 @@ main {
 
   .projets-ped {
     float: right;
-    margin-top: -465px;
+    margin-top: -300px;
     width: 465px;
     word-spacing: 2px;
     line-height: 23.15px;
     letter-spacing: 0.75px;
     color: rgb(27, 39, 54);
+
+    &:nth-child(3) > h4:nth-child(1) {
+      height: 10px;
+    }
   }
 
   .certification-cour {
     float: right;
-    margin-top: -260px;
+    margin-top: -580px;
     width: 465px;
     word-spacing: 2px;
     line-height: 23.15px;
     letter-spacing: 0.75px;
     color: rgb(27, 39, 54);
+
+    h4 {
+      margin-bottom: 5px;
+    }
+
+    li {
+      margin-left: 1.8rem;
+    }
 
     .cf {
       text-decoration: none;
@@ -155,6 +172,10 @@ main {
       &:hover {
         color: #3176e0;
       }
+    }
+
+    .opc {
+      margin-top: 7px;
     }
   }
 }
